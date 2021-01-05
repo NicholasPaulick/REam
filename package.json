@@ -1,0 +1,19 @@
+{
+  "name": "ream",
+  "version": "1.0.0",
+  "description": "Discord Bot For My Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicholasPaulick/REam.git"
+  },
+  "author": "NicholasPaulick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicholasPaulick/REam/issues"
+  },
+  "homepage": "https://github.com/NicholasPaulick/REam#readme"
+}
