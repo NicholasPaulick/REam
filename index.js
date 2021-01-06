@@ -2,7 +2,8 @@ const Discord = require("discord.js");
 const config = require("./config.json");
 const client = new Discord.Client();
 
-const prefix = "!";
+const prefix = "d!";
+
 
 client.on("message", function (message) {
     if (message.author.bot) return;
@@ -21,6 +22,10 @@ client.on("message", function (message) {
         const numArgs = args.map(x => parseFloat(x));
         const sum = numArgs.reduce((counter, x) => counter += x);
         message.reply(`The sum of all the arguments you provided is ${sum}!`);
+    }
+
+    if (command === "avatarme"){
+        message.reply(message.author.displayAvatarURL());
     }
 });                                      
 
